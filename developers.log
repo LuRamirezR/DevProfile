@@ -1,0 +1,88 @@
+07:02:37 PM: ERROR [cursor_pool.py:19] Ocurrió una excepción, se hace rollback: relation "usuario" does not exist
+LINE 1: SELECT * FROM usuario
+                      ^
+ <class 'psycopg2.errors.UndefinedTable'> <traceback object at 0x0000020D5AA76D00>
+09:53:09 PM: ERROR [cursor_pool.py:19] Ocurrió una excepción, se hace rollback: maximum recursion depth exceeded <class 'RecursionError'> <traceback object at 0x0000017DE1721C80>
+09:58:17 PM: ERROR [cursor_pool.py:19] Ocurrió una excepción, se hace rollback: maximum recursion depth exceeded <class 'RecursionError'> <traceback object at 0x000001CA39746800>
+10:00:30 PM: ERROR [cursor_pool.py:19] Ocurrió una excepción, se hace rollback: maximum recursion depth exceeded <class 'RecursionError'> <traceback object at 0x00000274BF8F6600>
+10:04:40 PM: ERROR [cursor_pool.py:19] Ocurrió una excepción, se hace rollback: not all arguments converted during string formatting <class 'TypeError'> <traceback object at 0x00000255B6691D80>
+10:11:58 PM: ERROR [cursor_pool.py:19] Ocurrió una excepción, se hace rollback: not all arguments converted during string formatting <class 'TypeError'> <traceback object at 0x00000269231C6C80>
+10:13:27 PM: ERROR [cursor_pool.py:19] Ocurrió una excepción, se hace rollback: not all arguments converted during string formatting <class 'TypeError'> <traceback object at 0x000001B8A20C6C00>
+10:14:22 PM: ERROR [cursor_pool.py:19] Ocurrió una excepción, se hace rollback: not all arguments converted during string formatting <class 'TypeError'> <traceback object at 0x000001B2A1C36C00>
+10:18:58 PM: ERROR [cursor_pool.py:19] Ocurrió una excepción, se hace rollback: column "skills" is of type character varying[] but expression is of type record
+LINE 1: ...jandra Tellez', 'atellez@mail.com', 1, 'Trainee', ('Fundamen...
+                                                             ^
+HINT:  You will need to rewrite or cast the expression.
+ <class 'psycopg2.errors.DatatypeMismatch'> <traceback object at 0x0000018B32226C00>
+10:22:24 PM: ERROR [cursor_pool.py:19] Ocurrió una excepción, se hace rollback: column "skills" is of type character varying[] but expression is of type record
+LINE 1: ...jandra Tellez', 'atellez@mail.com', 1, 'Trainee', ('Fundamen...
+                                                             ^
+HINT:  You will need to rewrite or cast the expression.
+ <class 'psycopg2.errors.DatatypeMismatch'> <traceback object at 0x0000020D15E011C0>
+10:29:18 PM: ERROR [cursor_pool.py:19] Ocurrió una excepción, se hace rollback: column "skills" is of type character[] but expression is of type record
+LINE 1: ...jandra Tellez', 'atellez@mail.com', 1, 'Trainee', ('Fundamen...
+                                                             ^
+HINT:  You will need to rewrite or cast the expression.
+ <class 'psycopg2.errors.DatatypeMismatch'> <traceback object at 0x0000024570426C00>
+10:31:10 PM: ERROR [cursor_pool.py:19] Ocurrió una excepción, se hace rollback: value too long for type character(1)
+ <class 'psycopg2.errors.StringDataRightTruncation'> <traceback object at 0x0000027E27C96C00>
+09:58:28 AM: ERROR [cursor_pool.py:19] Ocurrió una excepción, se hace rollback: tuple index out of range <class 'IndexError'> <traceback object at 0x0000023DE32507C0>
+10:00:45 AM: ERROR [cursor_pool.py:19] Ocurrió una excepción, se hace rollback: tuple index out of range <class 'IndexError'> <traceback object at 0x00000263185AAE00>
+10:03:14 AM: ERROR [cursor_pool.py:19] Ocurrió una excepción, se hace rollback: syntax error at or near ")"
+LINE 1: ...@mail.com', years_experience=3, level_experience=() WHERE id...
+                                                             ^
+ <class 'psycopg2.errors.SyntaxError'> <traceback object at 0x000002102A32EA80>
+10:04:33 AM: ERROR [cursor_pool.py:19] Ocurrió una excepción, se hace rollback: syntax error at or near ")"
+LINE 1: ...@mail.com', years_experience=3, level_experience=() WHERE id...
+                                                             ^
+ <class 'psycopg2.errors.SyntaxError'> <traceback object at 0x0000027278ADEB80>
+10:46:08 AM: ERROR [cursor_pool.py:19] Ocurrió una excepción, se hace rollback: check() takes no arguments <class 'TypeError'> <traceback object at 0x0000019EA527A480>
+11:29:43 AM: INFO [menu_app_user.py:17] 
+            Id Developer: 1, Name: Juan Arango, email: jarango@mail.com,
+            Years of experience: 7, Level of experience: Senior
+        
+11:29:43 AM: INFO [menu_app_user.py:17] 
+            Id Developer: 2, Name: Jhon Gomez, email: jgomez@mail.com,
+            Years of experience: 2, Level of experience: Junior
+        
+11:29:43 AM: INFO [menu_app_user.py:17] 
+            Id Developer: 4, Name: Carlos Agudelo, email: cagudelo@mail.com,
+            Years of experience: 4, Level of experience: Middle
+        
+11:29:43 AM: INFO [menu_app_user.py:17] 
+            Id Developer: 5, Name: Mari Botero, email: mbotero@mail.com,
+            Years of experience: 1, Level of experience: Trainee
+        
+11:29:43 AM: INFO [menu_app_user.py:17] 
+            Id Developer: 6, Name: Caro Bernal, email: cbernal@mail.com,
+            Years of experience: 4, Level of experience: Middle
+        
+11:37:03 AM: INFO [menu_app_user.py:24] Usuarios insertados: 1
+11:37:14 AM: INFO [menu_app_user.py:26] Salimos de la aplicacion...
+11:47:53 AM: INFO [menu_app_user.py:32] Usuarios actualizados: 1
+11:48:50 AM: INFO [menu_app_user.py:17] 
+            Id Developer: 1, Name: Juan Arango, email: jarango@mail.com,
+            Years of experience: 7, Level of experience: Senior
+        
+11:48:50 AM: INFO [menu_app_user.py:17] 
+            Id Developer: 2, Name: Jhon Gomez, email: jgomez@mail.com,
+            Years of experience: 2, Level of experience: Junior
+        
+11:48:50 AM: INFO [menu_app_user.py:17] 
+            Id Developer: 4, Name: Natalia Rojas, email: nrojas@mail.com,
+            Years of experience: 1, Level of experience: Trainee
+        
+11:48:50 AM: INFO [menu_app_user.py:17] 
+            Id Developer: 5, Name: Mari Botero, email: mbotero@mail.com,
+            Years of experience: 1, Level of experience: Trainee
+        
+11:48:50 AM: INFO [menu_app_user.py:17] 
+            Id Developer: 6, Name: Caro Bernal, email: cbernal@mail.com,
+            Years of experience: 4, Level of experience: Middle
+        
+11:48:50 AM: INFO [menu_app_user.py:17] 
+            Id Developer: 7, Name: Jen Arboleda, email: jarboleda@mail.com,
+            Years of experience: 5, Level of experience: Middle
+        
+11:49:20 AM: INFO [menu_app_user.py:37] Usuario eliminado: 1
+11:49:24 AM: INFO [menu_app_user.py:39] Salimos de la aplicacion...
