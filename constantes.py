@@ -43,3 +43,11 @@ class Constant:
                   'Innovación empresarial',
                   'Gestión de grandes equipos',
                   'Influencia estratégica']
+
+    LEAD_SKILL = ['Experiencia técnica avanzada',
+                  'Habilidades de liderazgo',
+                  'Comunicación Efectiva',
+                  'Resolución de Problemas',
+                  'Mentoría y Desarrollo de Equipos']
+    LEAD_REQ = ['Este es el nivel más alto de un profesional como desarrollador',
+                'Lider de equipo']

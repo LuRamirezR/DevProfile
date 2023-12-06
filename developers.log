@@ -86,3 +86,34 @@ LINE 1: ...@mail.com', years_experience=3, level_experience=() WHERE id...
         
 11:49:20 AM: INFO [menu_app_user.py:37] Usuario eliminado: 1
 11:49:24 AM: INFO [menu_app_user.py:39] Salimos de la aplicacion...
+06:57:29 PM: INFO [menu_app_user.py:17] 
+            Id Developer: 1, Name: Juan Arango, email: jarango@mail.com,
+            Years of experience: 7, Level of experience: Senior
+        
+06:57:29 PM: INFO [menu_app_user.py:17] 
+            Id Developer: 2, Name: Jhon Gomez, email: jgomez@mail.com,
+            Years of experience: 2, Level of experience: Junior
+        
+06:57:29 PM: INFO [menu_app_user.py:17] 
+            Id Developer: 4, Name: Natalia Rojas, email: nrojas@mail.com,
+            Years of experience: 1, Level of experience: Trainee
+        
+06:57:29 PM: INFO [menu_app_user.py:17] 
+            Id Developer: 6, Name: Caro Bernal, email: cbernal@mail.com,
+            Years of experience: 4, Level of experience: Middle
+        
+06:57:29 PM: INFO [menu_app_user.py:17] 
+            Id Developer: 7, Name: Jen Arboleda, email: jarboleda@mail.com,
+            Years of experience: 5, Level of experience: Middle
+        
+07:01:09 PM: ERROR [cursor_pool.py:19] Ocurrió una excepción, se hace rollback: type object 'User_dev' has no attribute 'skills' <class 'AttributeError'> <traceback object at 0x0000012A48C48C80>
+07:06:51 PM: ERROR [cursor_pool.py:19] Ocurrió una excepción, se hace rollback: can't adapt type 'property' <class 'psycopg2.ProgrammingError'> <traceback object at 0x00000217BF4D1F40>
+07:08:00 PM: INFO [menu_app_user.py:24] Usuarios insertados: 1
+07:10:24 PM: ERROR [cursor_pool.py:19] Ocurrió una excepción, se hace rollback: can't adapt type 'property' <class 'psycopg2.ProgrammingError'> <traceback object at 0x0000012BFCCD3B80>
+07:17:28 PM: INFO [menu_app_user.py:32] Usuarios actualizados: 1
+07:18:20 PM: ERROR [cursor_pool.py:19] Ocurrió una excepción, se hace rollback: can't adapt type 'property' <class 'psycopg2.ProgrammingError'> <traceback object at 0x000001ADA9F93B80>
+07:19:52 PM: ERROR [cursor_pool.py:19] Ocurrió una excepción, se hace rollback: can't adapt type 'property' <class 'psycopg2.ProgrammingError'> <traceback object at 0x000002B43EF71F40>
+07:39:01 PM: ERROR [cursor_pool.py:19] Ocurrió una excepción, se hace rollback: can't adapt type 'property' <class 'psycopg2.ProgrammingError'> <traceback object at 0x00000209244BB200>
+08:27:53 PM: INFO [menu_app_user.py:32] Usuarios actualizados: 1
+08:37:29 PM: INFO [menu_app_user.py:24] Usuarios insertados: 1
+08:41:58 PM: INFO [menu_app_user.py:32] Usuarios actualizados: 1

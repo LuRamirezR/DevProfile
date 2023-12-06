@@ -5,10 +5,10 @@ from logger_base import log
 choice = None
 while choice != 5:
     print('Opciones')
-    print('1. Listar usuarios')
-    print('2. Agregar usuario')
-    print('3. Modificar usuario')
-    print('4. Eliminar usuario')
+    print('1. Listar perfiles de desarrolladores')
+    print('2. Agregar perfil del desarrollador')
+    print('3. Modificar perfil del desarrollador')
+    print('4. Eliminar perfil del desarrollador')
     print('5. Salir')
     choice = int(input('Escribe tu opcion (1-5): '))
     if choice == 1:

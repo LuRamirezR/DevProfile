@@ -5,22 +5,24 @@ class check:
     @classmethod
     def check_year(cls, years):
         if years <= 1:
-            User_dev.level_experience = 'Trainee'
-            User_dev.skills = Constant.TRAINEE_SKILL
-            User_dev.request = Constant.TRAINEE_REQ
+            level_experience = 'Trainee'
+            skills = Constant.TRAINEE_SKILL
+            request = Constant.TRAINEE_REQ
         elif 2 <= years <= 3:
-            User_dev.level_experience = 'Junior'
-            User_dev.skills = Constant.JUNIOR_SKILL
-            User_dev.request = Constant.JUNIOR_REQ
+            level_experience = 'Junior'
+            skills = Constant.JUNIOR_SKILL
+            request = Constant.JUNIOR_REQ
         elif 4 <= years <= 5:
-            User_dev.level_experience = 'Middle'
-            User_dev.skills = Constant.MIDDLE_SKILL
-            User_dev.request = Constant.MIDDLE_REQ
+            level_experience = 'Middle'
+            skills = Constant.MIDDLE_SKILL
+            request = Constant.MIDDLE_REQ
         elif 6 <= years <= 8:
-            User_dev.level_experience = 'Senior'
-            User_dev.skills = Constant.SENIOR_SKILL
-            User_dev.request = Constant.SENIOR_REQ
-        elif years >= 9:
-            User_dev.years_experience = 'Lead'
-        return User_dev.level_experience, User_dev.skills, User_dev.request
+            level_experience = 'Senior'
+            skills = Constant.SENIOR_SKILL
+            request = Constant.SENIOR_REQ
+        elif 9 <= years <= 12:
+            level_experience = 'Lead'
+            skills = Constant.LEAD_SKILL
+            request = Constant.LEAD_REQ
+        return level_experience, skills, request
 
